@@ -1,0 +1,49 @@
+@import url("https://cdn.jsdelivr.net/gh/mustafazeydani/Fonts/CursedTimerULiL/CursedTimerULiL.css");
+body {
+  margin: 0;
+  color: white;
+}
+.container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to top, #003b7e, #2c74b3);
+  width: fit-content;
+  margin: auto;
+  margin-top: 200px;
+  border: 5px solid black;
+  border-radius: 5px;
+}
+.home {
+  padding: 20px 20px;
+  margin: 20px 20px;
+}
+#hscore {
+  background-color: black;
+  font-size: xx-large;
+  padding: 20px 0;
+  border: 5px solid #d3b4fe;
+
+  font-family: "Cursed Timer ULiL", sans-serif;
+}
+#gscore {
+  background-color: black;
+  padding: 20px 0;
+  font-size: xx-large;
+  border: 5px solid #d3b4fe;
+  border-radius: 5px;
+
+  font-family: "Cursed Timer ULiL", sans-serif;
+}
+button {
+  color: rgb(255, 255, 255);
+  border: solid 2px #ffffff;
+  border-radius: 5px;
+  background: linear-gradient(#3c79f5, #2dcddf);
+  font-family: "Cursed Timer ULiL", sans-serif;
+}
+button:hover {
+  background: linear-gradient(#6c00ff, #3c79f5);
+  box-shadow: 0 0 2px 2px rgb(255, 255, 255);
+}
